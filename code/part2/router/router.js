@@ -6,7 +6,7 @@ router.get('/index',function (req,res) {
 
 })
 router.post('/index',function (req,res) {
-    res.send('hello world')
+    res.send('hello world first')
 
 })
 module.exports=router
