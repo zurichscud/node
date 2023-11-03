@@ -94,6 +94,16 @@ app.get(‘/index/:id',function (req,res) {
 
 > {id:'12'}
 
+## body
+
+获取请求中的body信息，需要注册不同的中间件，才能正确解析body中的数据
+
+```js
+req.body
+```
+
+
+
 # response
 
 ## send()

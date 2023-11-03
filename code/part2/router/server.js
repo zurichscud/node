@@ -25,7 +25,7 @@ app.use('/special', (req, res, next) => {
 });
 app.get('/special/index',(req, res)=>{
     req.name=req.name+12
-    res.send(req)
+    res.send(req.name)
 })
 
 
